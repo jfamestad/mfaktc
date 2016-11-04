@@ -744,6 +744,17 @@ int main(int argc, char **argv)
       print_help(argv[0]);
       return 0;
     }
+    else if(!strcmp((char*)"-w", argv[i]))
+    {
+      if(i+1 >= argc)
+      {
+        printf("ERROR: no workfile provided to -w switch\n");
+        return 1;
+      }
+      sprintf(mystuff.workfile, argv[i+1]);
+      printf("Using worktodo file: %s\n", mystuff.workfile);
+      i++;
+    }
     else if(!strcmp((char*)"-d", argv[i]))
     {
       if(i+1 >= argc)
