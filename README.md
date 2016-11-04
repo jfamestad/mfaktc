@@ -31,6 +31,13 @@ It uses CPU and GPU resources.
 It runs almost entirely on the GPU since v0.20 (previous versions used both
 CPU and GPU resources).
 
+http://www.mersennewiki.org/index.php/Mfaktc
+
+I am not the original author of this software, this repo is a (very minor) fork of the project found at http://www.mersenneforum.org/mfaktc/mfaktc-0.21/mfaktc-0.21.tar.gz
+
+http://www.mersenneforum.org/showthread.php?t=12827
+
+
 
 
 ########################
